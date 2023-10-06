@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cisco-psirt-app"
+version = "0.1.0"
+description = "PSIRT consumer"
+authors = ["Justin G. Mitchell <jgmitchell@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "cisco_psirt_app"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

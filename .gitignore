@@ -160,4 +160,4 @@ cython_debug/
 #.idea/
 
 # My files
-config.txt
+config.*
