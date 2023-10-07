@@ -1,5 +1,5 @@
 # cisco-psirt-app
-Used to pull data from the OpenVULN API
+Used to pull data from the Cisco OpenVuln API
 
 ## Setup
 1. Rename sample-config.py to config.py
