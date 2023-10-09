@@ -1,5 +1,7 @@
 # cisco-psirt-app
-Used to pull data from the Cisco OpenVuln API
+Used to pull data from the Cisco OpenVuln API and post to a Webex room
+
+[Screenshot of messages posted to Webex space](webex.png)
 
 ## Setup
 1. Rename sample-config.py to config.py
@@ -14,4 +16,4 @@ webex_bot_room = "YOUR-WEBEX-ROOM"
 ```
 
 ## Usage
-Coming soon
+`python3 psirt.py`
